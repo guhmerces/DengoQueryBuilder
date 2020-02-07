@@ -1,0 +1,22 @@
+{
+    "name": "dengo/dengo_query_builder",
+    "version": "1.0",
+    "description": "A simple PHP Query",
+    "keywords": [
+        "Builder",
+        "QueryBuilder"
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "Source"
+        },
+        "files": [
+          "Source/Config.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*"        
+    }
+}
